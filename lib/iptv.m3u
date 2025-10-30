@@ -6231,9 +6231,9 @@ https://epg.pw/stream/c63a5626286e9017c57efde96337b54a1cb81a6626bb93f486fcbc1caa
 #EXTINF:-1 tvg-id="19" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
 https://epg.pw/stream/33c44b3d14a45ab0fbe06d98b6608a0067dd068ebb6bd8e4a931cb2e600f8548.m3u8$LR•IPV4•37『线路19』
 #EXTINF:-1 tvg-id="20" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
-http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZjZG5leF9pZD1xcV9waG9uZV9saXZlJmNocz0mZGVmPTEmcz1lY2Y5NmU0YzM4ZmNlMTA3ZmY4MTFiYjc5ZmNjNTJlOCZ1aWQ9JnV1aWQ9ZTVlNzRjN2E4ZjI3N2I1ZTYyZjU4OGZiMDQ3NzNiZjUtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc2MTg1MjQ4OQ,,/JYKTMPP360.m3u8$LR•IPV4•37『线路20』
+http://58.57.40.22:9901/tsfile/live/1059_1.m3u8$LR•IPV4•37『线路20』
 #EXTINF:-1 tvg-id="21" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
-http://58.57.40.22:9901/tsfile/live/1059_1.m3u8$LR•IPV4•37『线路21』
+http://phoneqq.qing.mgtv.com/nn_live/nn_x64/dWlwPTEwNi4xNC4zOC41NSZ0ZXJtPTUmcWlkPSZjZG5leF9pZD1xcV9waG9uZV9saXZlJmNocz0mZGVmPTEmcz1lY2Y5NmU0YzM4ZmNlMTA3ZmY4MTFiYjc5ZmNjNTJlOCZ1aWQ9JnV1aWQ9ZTVlNzRjN2E4ZjI3N2I1ZTYyZjU4OGZiMDQ3NzNiZjUtNmEwZTI2Mzcmdj0yJmFzPTAmZXM9MTc2MTg1MjQ4OQ,,/JYKTMPP360.m3u8$LR•IPV4•37『线路21』
 #EXTINF:-1 tvg-id="22" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
 http://home.wwang.pw:35455/itv/5000000006000040024.m3u8?cdn=bestzb$LR•IPV4•37『线路22』
 #EXTINF:-1 tvg-id="23" tvg-name="金鹰卡通" group-title="数字频道",金鹰卡通
@@ -6423,9 +6423,9 @@ http://home.wwang.pw:35455/itv/5000000011000031111.m3u8?cdn=bestzb$LR•IPV4•3
 #EXTINF:-1 tvg-id="18" tvg-name="都市剧场" group-title="数字频道",都市剧场
 http://112.46.105.20:8009/hls/72/index.m3u8$LR•IPV4•31『线路18』
 #EXTINF:-1 tvg-id="19" tvg-name="都市剧场" group-title="数字频道",都市剧场
-https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8$LR•IPV4•31『线路19』
+http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225762/index.m3u8$LR•IPV6•31『线路19』
 #EXTINF:-1 tvg-id="20" tvg-name="都市剧场" group-title="数字频道",都市剧场
-http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225762/index.m3u8$LR•IPV6•31『线路20』
+https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8$LR•IPV4•31『线路20』
 #EXTINF:-1 tvg-id="21" tvg-name="都市剧场" group-title="数字频道",都市剧场
 https://zby.130519.xyz/PLTV/11/224/3221225762/index.m3u8$LR•IPV4•31『线路21』
 #EXTINF:-1 tvg-id="22" tvg-name="都市剧场" group-title="数字频道",都市剧场
