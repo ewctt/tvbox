@@ -291,7 +291,7 @@ http://218.13.14.6:60050/tsfile/live/1004_1.m3u8$LR•IPV4•57『线路31』
 #EXTINF:-1 tvg-id="32" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 http://58.57.40.22:9901/tsfile/live/1003_1.m3u8$LR•IPV4•57『线路32』
 #EXTINF:-1 tvg-id="33" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1769832000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-9d0df08a0a06d8b4c48cd2247d77ff98&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•57『线路33』
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1769835600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-27d93665da3c37da3a2aeb634bfc667a&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c$LR•IPV4•57『线路33』
 #EXTINF:-1 tvg-id="34" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
 http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8$LR•IPV4•57『线路34』
 #EXTINF:-1 tvg-id="35" tvg-name="CCTV4中文国际" group-title="央视频道",CCTV4中文国际
@@ -945,7 +945,7 @@ http://218.13.14.6:60050/tsfile/live/1009_1.m3u8$LR•IPV4•49『线路20』
 #EXTINF:-1 tvg-id="21" tvg-name="CCTV9纪录" group-title="央视频道",CCTV9纪录
 http://58.57.40.22:9901/tsfile/live/1009_1.m3u8$LR•IPV4•49『线路21』
 #EXTINF:-1 tvg-id="22" tvg-name="CCTV9纪录" group-title="央视频道",CCTV9纪录
-https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=70a07318f4247d493845465a8a510f78$LR•IPV4•49『线路22』
+https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=621d89ed49a7f61940a9db8a02d19df3$LR•IPV4•49『线路22』
 #EXTINF:-1 tvg-id="23" tvg-name="CCTV9纪录" group-title="央视频道",CCTV9纪录
 http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8$LR•IPV4•49『线路23』
 #EXTINF:-1 tvg-id="24" tvg-name="CCTV9纪录" group-title="央视频道",CCTV9纪录
