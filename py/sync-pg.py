@@ -8,7 +8,9 @@ import os
 import re
 import sys
 import git
+import glob
 import json
+import shlex
 import requests
 import subprocess
 import platform
@@ -583,11 +585,12 @@ class TGDown:
                             self.git_clone()
                             if os.path.exists(self.repo):
                                 has_clone = True
-                        subprocess.call(f'rm -rf {self.repo}/{message.file.name.split(".")[0]}*.zip', shell=True)
+                        for f in glob.glob(os.path.join(self.repo, message.file.name.split(".")[0] + '*.zip')):
+                            os.remove(f)
                         if self.tdl:
                             cmd = f'tdl dl -i zip -u https://t.me/{self.channel.split("/")[-1]}/{message.id} -d {self.repo} --template "{{{{ .FileName }}}}"'
                             print(cmd)
-                            subprocess.call(f'{cmd}', shell=True)
+                            subprocess.call(shlex.split(cmd))
                         else:
                             await download_file(client, channel_title, chat_id, message, self.repo)
                         print(f'TG群组({channel_title}) - 本地包{message.file.name}下载完成')
@@ -601,13 +604,14 @@ class TGDown:
                                     print(f'开始更新{self.local_target}目录PG在线接口到最新版本')
                                     # 修改配置
                                     sed_command = f'sed -i "" "s@http://127.0.0.1:10199/@http://tg.fish2018.us.kg/@g" lib/tokenm.json' if platform.system() == "Darwin" else f'sed -i "s@http://127.0.0.1:10199/@http://tg.fish2018.us.kg/@g" lib/tokenm.json'
+                                    safe_name = shlex.quote(message.file.name)
                                     subprocess.call(
                                         f'rm -rf {self.local_target}/* && '
-                                        f'cp -a {self.repo}/{message.file.name} {self.local_target}/ && '
+                                        f'cp -a {self.repo}/{safe_name} {self.local_target}/ && '
                                         f'cd {self.local_target} && '
-                                        f'unzip -o -q {message.file.name} && '
+                                        f'unzip -o -q {safe_name} && '
                                         f'cp -a lib/tokentemplate.json lib/tokenm.json && '
-                                        f'rm -rf {message.file.name} && '
+                                        f'rm -rf {safe_name} && '
                                         f'{sed_command}',
                                         shell=True
                                     )
@@ -617,18 +621,19 @@ class TGDown:
                                     print(e)
                         elif message.file.name.split(".")[0] == 'tgsearchpack':
                             tgsearch_zip_name = message.file.name
+                            safe_tgsearch_name = shlex.quote(tgsearch_zip_name)
                             tgsearch_message = message.message
                             tgsearch_hit = True
                             # 更新服务器tgsearch二进制包
                             print(f'更新tgsearch二进制包，重启supervisor')
                             subprocess.call(
                                 f'supervisorctl stop tg && '
-                                f'cp -a {self.repo}/{tgsearch_zip_name} ./  && '
-                                f'unzip -o {tgsearch_zip_name} && '
+                                f'cp -a {self.repo}/{safe_tgsearch_name} ./  && '
+                                f'unzip -o {safe_tgsearch_name} && '
                                 f'rm -rf runtgsearch.sh tgsearch.arm32v7 tgsearch.arm64v8 tgsearch.exe && '
                                 f'chmod +x tgsearch.x86_64 && '
                                 f'supervisorctl start tg &&'
-                                f'rm -rf {tgsearch_zip_name}',
+                                f'rm -rf {safe_tgsearch_name}',
                                 shell=True
                             )
 
